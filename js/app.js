@@ -2,7 +2,6 @@ const inputElement = document.getElementById('list-acceptor')
 const btnElement = document.getElementById('submit-button')
 const ulElement = document.getElementById('todo-list')
 
-//const btn = document.querySelector('#submit button')
 
 btnElement.addEventListener('click', function(evt){
   //create new li element
@@ -14,11 +13,3 @@ btnElement.addEventListener('click', function(evt){
   inputElement.value = ''
   //console.log(evt.target)
 })
-
-
-
-// const btn = document.querySelector('button')
-// btn.addEventListener('click', function(evt) {
-//   // testing!
-//   console.log(evt)
-// })
